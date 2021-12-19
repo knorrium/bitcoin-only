@@ -44,7 +44,7 @@
 					<div class="tbl-title">Description</div>
 					<div class="tbl-title">Learn More</div>
 				</div>
-				<div v-for="(lineItem, index) in communicationTools" :key="index" class="tbl-row">
+				<div v-for="(lineItem, index) in communicationTools" class="tbl-row">
 					<div>
 						<a :href="lineItem.link" target="_blank">{{ lineItem.title }}</a>
 					</div>
